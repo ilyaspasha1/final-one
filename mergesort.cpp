@@ -90,3 +90,9 @@ void output()
     }
     cout << endl;
 }
+int main()
+{
+    input();              // Step 1: Input array
+    mergeSort(0, n - 1);  // Step 2: Sort using merge sort
+    output();             // Step 3: Output sorted array
+}
